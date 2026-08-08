@@ -154,7 +154,30 @@ Presigned S3 URLs
 CloudWatch monitoring
 Infrastructure as Code using Terraform
 CI/CD automation with GitHub Actions
-👨‍💻 Author
+
+## 📸 Screenshots
+
+### CloudVault Application
+
+![CloudVault Application](screenshots/cloudvault-live.png)
+
+### Successful File Upload
+
+![Successful Upload](screenshots/upload-success.png)
+
+### API Gateway
+
+![API Gateway](screenshots/api-gateway.png)
+
+### AWS Lambda
+
+![AWS Lambda](screenshots/lambda.png)
+
+### Architecture
+
+![CloudVault Architecture](screenshots/cloudvault-architecture.png)
+
+## 👨‍💻 Author
 
 Wisdom Ayonitemi
 
