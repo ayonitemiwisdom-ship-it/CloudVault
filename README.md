@@ -30,6 +30,10 @@ API Gateway
 ↓
 Frontend
 
+### Architecture Diagram
+
+![CloudVault Architecture](screenshots/cloudvault-architecture.png)
+
 ## ✨ Features
 
 - Upload files through a web interface
