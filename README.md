@@ -63,7 +63,9 @@ Endpoints include:
 
 ```text
 POST /upload
-GET /filesAWS IAM
+GET /files
+
+AWS IAM
 
 IAM roles provide Lambda with the required permissions to interact with Amazon S3 and write execution logs.
 
