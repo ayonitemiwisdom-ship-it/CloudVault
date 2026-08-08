@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(135deg, #1769ff, #5b21b6);
+  color: white;
+  padding: 35px 8%;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 36px;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.container {
+  width: min(1000px, 90%);
+  margin: 40px auto;
+}
+
+.upload-card,
+.files-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.upload-card p,
+.files-header p {
+  color: #667085;
+}
+
+input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 25px 0;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+button {
+  border: none;
+  background: #1769ff;
+  color: white;
+  padding: 13px 22px;
+  border-radius: 9px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0f55d4;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.files-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.file-list {
+  margin-top: 25px;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.file-icon {
+  font-size: 28px;
+}
+
+.file-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.file-info span,
+.file-date {
+  color: #667085;
+  font-size: 13px;
+}
+
+.success {
+  color: #16803c !important;
+  font-weight: 600;
+}
+
+.error {
+  color: #d92d20 !important;
+  font-weight: 600;
+}
+
+.loading {
+  color: #667085;
+}
+
+.empty {
+  text-align: center;
+  padding: 30px;
+  color: #667085;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #667085;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 30px 5%;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .container {
+    width: 92%;
+  }
+
+  .upload-card,
+  .files-card {
+    padding: 20px;
+  }
+
+  .files-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .file-item {
+    align-items: flex-start;
+  }
+
+  .file-date {
+    display: none;
+  }
+}
